@@ -1,3 +1,4 @@
+
 module github.com/2dust/AndroidLibXrayLite
 
 go 1.27
@@ -59,3 +60,5 @@ require (
 	layeh.com/gopher-luar v1.0.11 // indirect
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
+
+replace github.com/xtls/xray-core => github.com/Areza13790319/Xray-core v0.0.0-20261119023444-c651ccd5cba5
